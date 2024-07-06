@@ -61,11 +61,20 @@ nav ul li a {
 .greetings {
   font-size: 45px;
   font-weight: 600;
+  margin-bottom: -40px;
 }
 .banner-title {
   font-weight: 700;
   font-size: 85px;
+  margin-bottom: 1px;
 }
 .banner-description {
   font-size: 18px;
+  line-height: 35px;
+}
+.contact {
+  background-color: #ffffff;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
 }
