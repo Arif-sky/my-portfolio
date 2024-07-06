@@ -6,16 +6,33 @@
 }
 
 /* Shared Style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .text-primary {
   color: #fd6e0a;
 }
 .dark-2 {
   color: #474747;
 }
+.dark-3 {
+  color: #757575;
+}
+.bg-secondary {
+  background-color: #fff8f3;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Header Styles */
 .header {
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, right bottom;
+  background-position: 37px 36px, right bottom;
 }
 .btn-primary {
   background-color: #fd6e0a;
@@ -71,10 +88,39 @@ nav ul li a {
 .banner-description {
   font-size: 18px;
   line-height: 35px;
+  color: #000000;
 }
 .contact {
   background-color: #ffffff;
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
   margin-left: 30px;
+}
+.banner-img {
+  width: 584px;
+}
+/* About Section Syles */
+.about {
+  max-width: 827px;
+  margin: 0 auto;
+  padding: 115px;
+  margin-top: 146px;
+}
+.about-description {
+  margin-top: -10px;
+  line-height: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-title {
+  font-size: 20px;
+  text-align: center;
+}
+.item-desciption {
+  font-size: 20px;
+  font-weight: 700;
 }
