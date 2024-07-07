@@ -27,6 +27,10 @@ main {
   font-weight: 700;
   text-align: center;
 }
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
 /* Header Styles */
 .header {
@@ -102,9 +106,8 @@ nav ul li a {
 /* About Section Syles */
 .about {
   max-width: 827px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 115px;
-  margin-top: 146px;
 }
 .about-description {
   margin-top: -10px;
@@ -123,4 +126,27 @@ nav ul li a {
 .item-desciption {
   font-size: 20px;
   font-weight: 700;
+}
+
+/* About Section Styles */
+
+.section-description {
+  font-size: 18px;
+  padding: 0px 170px 0px 170px;
+}
+.skill-container {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+}
+.skill {
+  width: 267px;
+  height: 377px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.06);
+}
+.skill-desciption {
+  padding: 33px;
+  line-height: 28px;
 }
